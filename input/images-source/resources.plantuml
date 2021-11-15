@@ -1,0 +1,57 @@
+@startuml
+
+hide circle
+hide stereotype
+
+skinparam object<<BA>> {
+ FontStyle bold
+ BorderColor DarkBlue
+ BackgroundColor LightCyan
+ HeaderBackgroundColor DeepSkyBlue
+}
+
+skinparam object<<GA>> {
+ FontStyle bold
+ BorderColor DarkGreen
+ BackgroundColor PHYSICAL
+ HeaderBackgroundColor LimeGreen
+}
+
+
+object "ManagedOrganization" as MO <<BA>>{
+|_ **geolocation**
+}
+
+Object "   SiteCapability   " as SC <<BA>>{
+|_ **instantiates**
+|_ implementation  
+  |_ **custodian**
+}
+
+Object "InstancedCapability" as IC <<BA>>{
+|_ **name**
+|_ **title**
+|_ **implementation**
+|_ description
+|_ **software**
+
+}
+
+
+Object "ReferencedCapability" as RC<<GA>>{
+|_ **name**
+|_ title
+|_ --implementation--
+|_ --software--
+|_ description
+}
+
+SC -u-> MO: contains
+SC -d-> IC: .instantiates
+SC .[hidden]r.> RC: .instantiates
+
+
+IC --> IC: .instantiates
+IC -u-> RC: .instantiates
+
+@enduml
