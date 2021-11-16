@@ -4,5 +4,3 @@ These artifacts should be provided when a site wishes to report its capabilities
 Using these artifacts, organizations that monitor the implementation of standardization efforts can roll out visualizations such as the one in the picture below:
 
 ![BE FHIR map](be_map.png "Map")
-
-
