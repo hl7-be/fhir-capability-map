@@ -3,7 +3,7 @@
 
 err = 3, warn = 6, info = 0
 IG Publisher Version: 1.1.86
-Generated Wed Nov 17 14:56:50 UTC 2021. FHIR version 4.0.1 for myig#1.0.0 (canonical = http://example.com/fhir/example)
+Generated Wed Nov 17 15:10:03 UTC 2021. FHIR version 4.0.1 for myig#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 21 / 3 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-myig : 3 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MappedCapability : 0 / 2 / 1
