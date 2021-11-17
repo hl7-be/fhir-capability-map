@@ -45,6 +45,6 @@ Usage: #definition
 * implementation.description = "Acme hospital"
 * implementation.url = "http://acem.com/fhir"
 * implementation.custodian = Reference (#Org1)
-* fhirVersion = #4.6.0
+* fhirVersion = #4.0.1
 * format[+] = #xml
 * format[+] = #json
