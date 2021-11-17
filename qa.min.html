@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 21, errors = 3, warn = 6, info = 0 -->
+<!-- broken links = 34, errors = 4, warn = 8, info = 0 -->
 <head>
   <title>ExampleIG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for ExampleIG</h1>
- <p>Generated Wed Nov 17 21:44:51 UTC 2021, FHIR version 4.0.1 for myig#1.0.0 (canonical = <a href="http://example.com/fhir/example">http://example.com/fhir/example</a> (<a href="http://example.com/fhir/example/history.html">history</a>)). See <a href="/github/workspace/output/qa.html">Full QA Report</a></p>
+ <p>Generated Wed Nov 17 21:59:21 UTC 2021, FHIR version 4.0.1 for myig#1.0.0 (canonical = <a href="http://example.com/fhir/example">http://example.com/fhir/example</a> (<a href="http://example.com/fhir/example/history.html">history</a>)). See <a href="/github/workspace/output/qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.86</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = myig, Canonical = http://example.com/fhir/example</td></tr>
@@ -49,15 +49,18 @@
  <tr><td>Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
  <br/><br/>The copyrightYear parameter ('2021+') in the IG resource is good</td></tr>
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://example.com/fhir/example (Problem #1 with package-list.json at http://example.com/fhir/example: http://example.com/fhir/example/package-list.json?nocache=1637185467294)</td></tr>
- <tr><td>Summary:</td><td> broken links = 21, errors = 3, warn = 6, info = 0</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://example.com/fhir/example (Problem #1 with package-list.json at http://example.com/fhir/example: http://example.com/fhir/example/package-list.json?nocache=1637186342410)</td></tr>
+ <tr><td>Summary:</td><td> broken links = 34, errors = 4, warn = 8, info = 0</td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>21</b></td><td><b>3</b></td><td><b>0</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>34</b></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_CapabilityStatement-messagedefinition"><b>/github/workspace/fsh-generated/resources/CapabilityStatement-messagedefinition</b></a></td><td><b>1</b></td><td><b>2</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_github_workspace_fsh-generated_resources_ImplementationGuide-myig"><b>/github/workspace/fsh-generated/resources/ImplementationGuide-myig</b></a></td><td><b>3</b></td><td><b>0</b></td><td><b>0</b></td>
@@ -82,6 +85,45 @@
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MappedOrganization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CapabilityStatement-messagedefinition.change.history.html#l193">output/CapabilityStatement-messagedefinition.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CapabilityStatement-messagedefinition.html#l191">output/CapabilityStatement-messagedefinition.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 121, column 9</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CapabilityStatement-messagedefinition.json.html#l191">output/CapabilityStatement-messagedefinition.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 9</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CapabilityStatement-messagedefinition.ttl.html#l191">output/CapabilityStatement-messagedefinition.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 9</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CapabilityStatement-messagedefinition.xml.html#l191">output/CapabilityStatement-messagedefinition.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 9</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Organization-messagedefinition_Org1.change.history.html#l193">output/Organization-messagedefinition_Org1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Organization-messagedefinition_Org1.change.history.html#l268">output/Organization-messagedefinition_Org1.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 171, column 8</a></b></td><td><b>error</b></td><td><b>The link 'Organization-messagedefinition_Org1.xml.html' for &quot;XML&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Organization-messagedefinition_Org1.change.history.html#l274">output/Organization-messagedefinition_Org1.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 178, column 8</a></b></td><td><b>error</b></td><td><b>The link 'Organization-messagedefinition_Org1.json.html' for &quot;JSON&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Organization-messagedefinition_Org1.change.history.html#l280">output/Organization-messagedefinition_Org1.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 185, column 8</a></b></td><td><b>error</b></td><td><b>The link 'Organization-messagedefinition_Org1.ttl.html' for &quot;TTL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Organization-messagedefinition_Org1.html#l191">output/Organization-messagedefinition_Org1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 121, column 9</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Organization-messagedefinition_Org1.html#l266">output/Organization-messagedefinition_Org1.html#/html/body/div/div/div/div/div/ul/li/a at Line 167, column 8</a></b></td><td><b>error</b></td><td><b>The link 'Organization-messagedefinition_Org1.xml.html' for &quot;XML&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Organization-messagedefinition_Org1.html#l272">output/Organization-messagedefinition_Org1.html#/html/body/div/div/div/div/div/ul/li/a at Line 174, column 8</a></b></td><td><b>error</b></td><td><b>The link 'Organization-messagedefinition_Org1.json.html' for &quot;JSON&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Organization-messagedefinition_Org1.html#l278">output/Organization-messagedefinition_Org1.html#/html/body/div/div/div/div/div/ul/li/a at Line 181, column 8</a></b></td><td><b>error</b></td><td><b>The link 'Organization-messagedefinition_Org1.ttl.html' for &quot;TTL&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="StructureDefinition-MappedCapability-definitions.html#l192">output/StructureDefinition-MappedCapability-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
@@ -148,9 +190,28 @@
    </tr>
 </table>
 <hr/>
+<a name="_github_workspace_fsh-generated_resources_CapabilityStatement-messagedefinition"> </a>
+<h2><a href="CapabilityStatement-messagedefinition.html">fsh-generated/resources/CapabilityStatement-messagedefinition.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(2)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>CapabilityStatement: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/capabilitystatement.html">CapabilityStatement</a></li><li>CapabilityStatement.contained[0]: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/organization.html">Organization</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CapabilityStatement</b></td><td><b>warning</b></td><td title="cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CapabilityStatement</b></td><td><b>error</b></td><td title="cpb-1: 'A Capability Statement SHALL have at least one of REST, messaging or document element.' Rule 'A Capability Statement SHALL have at least one of REST, messaging or document element.' Failed"><b>cpb-1: 'A Capability Statement SHALL have at least one of REST, messaging or document element.' Rule 'A Capability Statement SHALL have at least one of REST, messaging or document element.' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CapabilityStatement.contained[0].ofType(Organization).identifier[0].type</b></td><td><b>warning</b></td><td title="Terminology_TX_Code_ValueSet_Ext"><b>No code provided, and a code should be provided from the value set http://hl7.org/fhir/ValueSet/identifier-type (http://hl7.org/fhir/ValueSet/identifier-type)</b></td>
+   </tr>
+</table>
+<hr/>
 <a name="_github_workspace_fsh-generated_resources_ImplementationGuide-myig"> </a>
-<h2><a href="ImplementationGuide-myig.html">fsh-generated/resources/ImplementationGuide-myig.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(0)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi1"></div>
+<h2><a href="ImplementationGuide-myig.html">fsh-generated/resources/ImplementationGuide-myig.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(0)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi2"></div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
@@ -167,8 +228,8 @@
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_StructureDefinition-MappedCapability"> </a>
-<h2><a href="StructureDefinition-MappedCapability.html">fsh-generated/resources/StructureDefinition-MappedCapability.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-MappedCapability.html">fsh-generated/resources/StructureDefinition-MappedCapability.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -183,8 +244,8 @@
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_StructureDefinition-MappedOrganization"> </a>
-<h2><a href="StructureDefinition-MappedOrganization.html">fsh-generated/resources/StructureDefinition-MappedOrganization.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-MappedOrganization.html">fsh-generated/resources/StructureDefinition-MappedOrganization.json</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi4"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -223,6 +284,14 @@
  <table class="grid">
    <tr style="background-color: #ffeeee">
      <td><a href="ImplementationGuide-myig.html">fsh-generated/resources/ImplementationGuide-myig.json</a></td><td><b>Resource id/url mismatch: myig/http://example.com/fhir/example</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_Code_ValueSet_Ext"> </a>
+<h2>Terminology_TX_Code_ValueSet_Ext</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="CapabilityStatement-messagedefinition.html">fsh-generated/resources/CapabilityStatement-messagedefinition.json</a></td><td><b>No code provided, and a code should be provided from the value set http://hl7.org/fhir/ValueSet/identifier-type (http://hl7.org/fhir/ValueSet/identifier-type)</b></td>
    </tr>
 </table>
 <hr/>

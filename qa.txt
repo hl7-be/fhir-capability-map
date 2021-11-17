@@ -1,10 +1,11 @@
 ﻿ExampleIG : Validation Results
 =========================================
 
-err = 3, warn = 6, info = 0
+err = 4, warn = 8, info = 0
 IG Publisher Version: 1.1.86
-Generated Wed Nov 17 21:44:51 UTC 2021. FHIR version 4.0.1 for myig#1.0.0 (canonical = http://example.com/fhir/example)
- Build Errors : 21 / 3 / 0
+Generated Wed Nov 17 21:59:21 UTC 2021. FHIR version 4.0.1 for myig#1.0.0 (canonical = http://example.com/fhir/example)
+ Build Errors : 34 / 3 / 0
+ /github/workspace/fsh-generated/resources/CapabilityStatement-messagedefinition : 1 / 2 / 2
  /github/workspace/fsh-generated/resources/ImplementationGuide-myig : 3 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MappedCapability : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MappedOrganization : 0 / 1 / 1
@@ -13,6 +14,19 @@ Generated Wed Nov 17 21:44:51 UTC 2021. FHIR version 4.0.1 for myig#1.0.0 (canon
 WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MappedCapability.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MappedOrganization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/CapabilityStatement-messagedefinition.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/CapabilityStatement-messagedefinition.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 121, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/CapabilityStatement-messagedefinition.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/CapabilityStatement-messagedefinition.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/CapabilityStatement-messagedefinition.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Organization-messagedefinition_Org1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Organization-messagedefinition_Org1.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 171, column 8: The link 'Organization-messagedefinition_Org1.xml.html' for "XML" cannot be resolved
+ERROR: /github/workspace/output/Organization-messagedefinition_Org1.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 178, column 8: The link 'Organization-messagedefinition_Org1.json.html' for "JSON" cannot be resolved
+ERROR: /github/workspace/output/Organization-messagedefinition_Org1.change.history.html#/html/body/div/div/div/div/div/ul/li/a at Line 185, column 8: The link 'Organization-messagedefinition_Org1.ttl.html' for "TTL" cannot be resolved
+ERROR: /github/workspace/output/Organization-messagedefinition_Org1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 121, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Organization-messagedefinition_Org1.html#/html/body/div/div/div/div/div/ul/li/a at Line 167, column 8: The link 'Organization-messagedefinition_Org1.xml.html' for "XML" cannot be resolved
+ERROR: /github/workspace/output/Organization-messagedefinition_Org1.html#/html/body/div/div/div/div/div/ul/li/a at Line 174, column 8: The link 'Organization-messagedefinition_Org1.json.html' for "JSON" cannot be resolved
+ERROR: /github/workspace/output/Organization-messagedefinition_Org1.html#/html/body/div/div/div/div/div/ul/li/a at Line 181, column 8: The link 'Organization-messagedefinition_Org1.ttl.html' for "TTL" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MappedCapability-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MappedCapability-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MappedCapability-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
@@ -34,6 +48,10 @@ ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/
 ERROR: /github/workspace/output/intro.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 121, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/model.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 121, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 121, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+== fsh-generated/resources/CapabilityStatement-messagedefinition.json ==
+WARNING: CapabilityStatement/messagedefinition: CapabilityStatement: cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: CapabilityStatement/messagedefinition: CapabilityStatement: cpb-1: 'A Capability Statement SHALL have at least one of REST, messaging or document element.' Rule 'A Capability Statement SHALL have at least one of REST, messaging or document element.' Failed
+WARNING: CapabilityStatement/messagedefinition: CapabilityStatement.contained[0].ofType(Organization).identifier[0].type: No code provided, and a code should be provided from the value set http://hl7.org/fhir/ValueSet/identifier-type (http://hl7.org/fhir/ValueSet/identifier-type)
 == fsh-generated/resources/ImplementationGuide-myig.json ==
 ERROR: ImplementationGuide.where(url = 'http://example.com/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-myig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/myig) does not match the URL (http://example.com/fhir/example)
 ERROR: ImplementationGuide.url: Resource id/url mismatch: myig/http://example.com/fhir/example

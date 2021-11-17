@@ -216,6 +216,17 @@
       <name value="MappedOrganization"/>
       <exampleBoolean value="false"/>
     </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CapabilityStatement"/>
+      </extension>
+      <reference>
+        <reference value="CapabilityStatement/messagedefinition"/>
+      </reference>
+      <name value="messagedefinition"/>
+      <description value="Sample capability statement showing new MessageDefinition structure"/>
+      <exampleBoolean value="false"/>
+    </resource>
     <page>
       <nameUrl value="toc.html"/>
       <title value="Table of Contents"/>

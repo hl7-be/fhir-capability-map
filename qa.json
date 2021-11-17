@@ -3,9 +3,9 @@
   "name": "ExampleIG",
   "package-id": "myig",
   "ig-ver": "1.0.0",
-  "date": "Wed, 17 Nov, 2021 21:44:27 +0000",
-  "errs": 3,
-  "warnings": 6,
+  "date": "Wed, 17 Nov, 2021 21:59:02 +0000",
+  "errs": 4,
+  "warnings": 8,
   "hints": 0,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"
