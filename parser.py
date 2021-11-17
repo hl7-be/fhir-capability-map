@@ -44,3 +44,7 @@ time.sleep(10)
 with open("./map/geodata.js", "w") as fout:
         fout.write("const geojson = ")
         json.dump(result, fout)
+
+with open("./map/geodata_new.js", "w") as fout:
+        fout.write("const geojson = ")
+        json.dump(result, fout)
