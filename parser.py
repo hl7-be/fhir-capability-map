@@ -34,6 +34,6 @@ for file in onlyfiles:
 result['type']='FeatureCollection'
 result["features"]=final_list
 
-with open("map/geojson.js", "w") as fout:
+with open("map/geodata.js", "w") as fout:
         fout.write("const geojson = ")
         json.dump(result, fout)
