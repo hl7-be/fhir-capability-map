@@ -330,6 +330,20 @@
         },
         "name": "MappedOrganization",
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CapabilityStatement"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/messagedefinition"
+        },
+        "name": "messagedefinition",
+        "description": "Sample capability statement showing new MessageDefinition structure",
+        "exampleBoolean": false
       }
     ],
     "page": {

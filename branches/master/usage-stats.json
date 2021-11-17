@@ -35,6 +35,7 @@
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/geolocation": [
+      "CapabilityStatement.contained.address",
       "Organization"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [

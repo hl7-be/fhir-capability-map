@@ -313,6 +313,20 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "MappedOrganization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CapabilityStatement" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.com/fhir/example/CapabilityStatement/messagedefinition>;
+         fhir:Reference.reference [ fhir:value "CapabilityStatement/messagedefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "messagedefinition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Sample capability statement showing new MessageDefinition structure" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];

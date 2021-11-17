@@ -7,6 +7,12 @@
     "name": "ExampleIG"
   },
   {
+    "id": "messagedefinition",
+    "type": "CapabilityStatement",
+    "url": "http://example.com/fhir/example/CapabilityStatement/messagedefinition",
+    "version": "1.0.0"
+  },
+  {
     "id": "MappedCapability",
     "type": "StructureDefinition",
     "url": "http://example.com/fhir/example/StructureDefinition/MappedCapability",
