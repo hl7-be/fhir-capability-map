@@ -7,7 +7,7 @@ ID_FHIR_PATH="CapabilityStatement.id"
 LAT_FHIR_PATH="CapabilityStatement.contained.where(resourceType='Organization').address.extension.where(url='http://hl7.org/fhir/StructureDefinition/geolocation').extension.where(url='latitude').valueDecimal"
 LONG_FHIR_PATH="CapabilityStatement.contained.where(resourceType='Organization').address.extension.where(url='http://hl7.org/fhir/StructureDefinition/geolocation').extension.where(url='longitude').valueDecimal"
 NAME_FHIR_PATH="CapabilityStatement.contained.where(resourceType='Organization').name"
-onlyfiles=glob.glob("./output/capabilitystatement-*.json")
+onlyfiles=glob.glob("./output/CapabilityStatement-*.json")
 
 time.sleep(5)
 print(onlyfiles)
@@ -40,11 +40,7 @@ result["features"]=final_list
 print(result)
 time.sleep(10)
 
-
 with open("./map/geodata.js", "w") as fout:
         fout.write("const geojson = ")
         json.dump(result, fout)
 
-with open("./map/geodata_new.js", "w") as fout:
-        fout.write("const geojson = ")
-        json.dump(result, fout)
