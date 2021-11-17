@@ -1,1 +1,0 @@
-const geojson = {"type": "FeatureCollection", "features": []}
