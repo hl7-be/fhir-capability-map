@@ -1,6 +1,7 @@
 from fhirpathpy import evaluate
 import json
 import glob
+import time
 
 ID_FHIR_PATH="CapabilityStatement.id"
 LAT_FHIR_PATH="CapabilityStatement.contained.where(resourceType='Organization').address.extension.where(url='http://hl7.org/fhir/StructureDefinition/geolocation').extension.where(url='latitude').valueDecimal"
@@ -8,7 +9,9 @@ LONG_FHIR_PATH="CapabilityStatement.contained.where(resourceType='Organization')
 NAME_FHIR_PATH="CapabilityStatement.contained.where(resourceType='Organization').name"
 onlyfiles=glob.glob("./output/capabilitystatement-*.json")
 
+time.sleep(5)
 print(onlyfiles)
+time.sleep(10)
 
 result={}
 final_list=[]
@@ -34,6 +37,10 @@ for file in onlyfiles:
 result['type']='FeatureCollection'
 result["features"]=final_list
 
-with open("map/geodata.js", "w") as fout:
+print(result)
+time.sleep(10)
+
+
+with open("./map/geodata.js", "w") as fout:
         fout.write("const geojson = ")
         json.dump(result, fout)
