@@ -1,23 +1,23 @@
 [
   {
+    "id": "myig",
+    "type": "ImplementationGuide",
+    "url": "http://example.com/fhir/example",
+    "version": "1.0.0",
+    "name": "ExampleIG"
+  },
+  {
     "id": "MappedCapability",
     "type": "StructureDefinition",
     "url": "http://example.com/fhir/example/StructureDefinition/MappedCapability",
-    "version": "0.1.0-test",
+    "version": "1.0.0",
     "name": "MappedCapability"
   },
   {
     "id": "MappedOrganization",
     "type": "StructureDefinition",
     "url": "http://example.com/fhir/example/StructureDefinition/MappedOrganization",
-    "version": "0.1.0-test",
+    "version": "1.0.0",
     "name": "MappedOrganization"
-  },
-  {
-    "id": "xxxexample.fhir.uv.myig",
-    "type": "ImplementationGuide",
-    "url": "xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
-    "version": "0.1.0-test",
-    "name": "xxxYourComputableMyIGNameHere"
   }
 ]

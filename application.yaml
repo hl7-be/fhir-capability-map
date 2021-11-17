@@ -24,9 +24,9 @@ hapi:
 
     install_transitive_ig_dependencies: true
     implementationguides:
-      xxxexample.fhir.uv.myig:
-        name: xxxexample.fhir.uv.myig
-        version: 0.1.0-test 
+      myig:
+        name: myig
+        version: 1.0.0 
     cors:
       allow_Credentials: true
       # These are allowed_origin patterns, see: https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/cors/CorsConfiguration.html#setAllowedOriginPatterns-java.util.List-

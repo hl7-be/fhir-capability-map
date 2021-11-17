@@ -16,17 +16,32 @@
     }
   ],
   "url": "http://example.com/fhir/example/StructureDefinition/MappedOrganization",
-  "version": "0.1.0-test",
+  "version": "1.0.0",
   "name": "MappedOrganization",
   "status": "active",
-  "date": "2021-11-16T16:14:46+00:00",
-  "publisher": "xxxYour Work Group",
+  "date": "2021-11-17T14:56:33+00:00",
+  "publisher": "My Organization",
   "contact": [
     {
+      "name": "My Organization",
       "telecom": [
         {
           "system": "url",
-          "value": "xxxhttp://hl7.org/Special/committees/[something]"
+          "value": "http://example.com/committees"
+        },
+        {
+          "system": "email",
+          "value": "my-group@example.com"
+        }
+      ]
+    },
+    {
+      "name": "Bob Smith",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "bobsmith@example.com",
+          "use": "work"
         }
       ]
     }
@@ -36,7 +51,8 @@
       "coding": [
         {
           "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001"
+          "code": "001",
+          "display": "World"
         }
       ]
     }
