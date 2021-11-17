@@ -29,10 +29,10 @@
 
 		var markers = L.markerClusterGroup();
 		
-		for (var i = 0; i < addressPoints.length; i++) {
-			var a = addressPoints[i];
-			var title = a[2];
-			var marker = L.marker(new L.LatLng(a[0], a[1]), { title: title });
+		for (var i = 0; i < geojson.features.length; i++) {
+			var a = geojson.features[i];
+			var title = a['properties']['message'];
+			var marker = L.marker(new L.LatLng(a.geometry.coordinates[0], a.geometry.coordinates[1]), { title: title });
 			marker.bindPopup(title);
 			markers.addLayer(marker);
 		}

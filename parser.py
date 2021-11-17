@@ -9,9 +9,7 @@ LONG_FHIR_PATH="CapabilityStatement.contained.where(resourceType='Organization')
 NAME_FHIR_PATH="CapabilityStatement.contained.where(resourceType='Organization').name"
 onlyfiles=glob.glob("./output/CapabilityStatement-*.json")
 
-time.sleep(5)
 print(onlyfiles)
-time.sleep(10)
 
 result={}
 final_list=[]
@@ -38,7 +36,6 @@ result['type']='FeatureCollection'
 result["features"]=final_list
 
 print(result)
-time.sleep(10)
 
 with open("./map/geodata.js", "w") as fout:
         fout.write("const geojson = ")
