@@ -14,19 +14,17 @@ print(onlyfiles)
 result={}
 final_list=[]
 for file in onlyfiles:
-    node={"type":"Feature","properties":{"iconSize":[20,20]},"geometry":{"type":"Point"}}
     with open(file) as json_file:
         data = json.load(json_file)
+    is_mappable = True
+    if not(is_mappable):
+      continue
+    node={"type":"Feature","properties":{"iconSize":[20,20]},"geometry":{"type":"Point"}}
     org_name=evaluate(data,NAME_FHIR_PATH,"")[0]
-    
     cs_id=evaluate(data,ID_FHIR_PATH , "")[0]
-
     lat = evaluate(data, LAT_FHIR_PATH, "")
- #   print(lat)
-  
     long = evaluate(data,LONG_FHIR_PATH , "")
-  #  print(long)
-    #result[cs_id]=[lat[0],long[0],org_name]
+
     node["properties"]["message"]="<a href='www.google.com'>"+org_name+"</a>"
     node["geometry"]["coordinates"]=[long[0],lat[0]]
     #result[cs_id].append(lat[0],long[0])
