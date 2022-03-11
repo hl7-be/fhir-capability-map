@@ -1,7 +1,8 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd" lang="en">
   <a name="scope">  </a>
 	<p>
-    This is our FHIR Implementation Guide. It contains the specifications developed by our community. 
+    This is FHIR Implementation describes the profiles for Capability Statements to be geographically mappable. 
+    This can be for tracking which sites have a specific functionality, or use a specific standard.
    </p>
 	<blockquote class="stu-note">
 	<strong>This documentation and set of artefacts are still undergoing development.</strong>
@@ -13,8 +14,7 @@
 
 <p>This publication contains the full set of specifications...</p>
 <p></p>
-<p>There is also an overview of the projects and motivation for the specifications.</p>
-<p></p>
+
 
 <a name="navigation"> </a>
 <p>The top menu allows quick navigation to the different sections, and a <a href="toc.html">Table of Contents</a> is provided with the entire content of this Implementation Guide. (Be aware that some pages have multiple tabs).</p>

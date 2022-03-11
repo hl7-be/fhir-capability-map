@@ -5,21 +5,21 @@ Instance: Org1
 InstanceOf: Organization
 Usage: #inline
 * identifier.use = #official
-* identifier.type.text = "Zorginstelling naam"
-* identifier.system = "http://www.zorgkaartnederland.nl/"
-* identifier.value = "Blijdorp MC"
+* identifier.type.text = "Rusthuis"
+* identifier.system = "http://www.belgianhealthinstitutions.be/"
+* identifier.value = "9000282434"
 * active = true
 * type.coding[0] = $sct#405608006 "Academic Medical Center"
 * type.coding[+] = $organization-type#prov
-* name = "Blijdorp Medisch Centrum (BUMC)"
+* name = "Groene rust huis 9000"
 * telecom.system = #phone
-* telecom.value = "+31107040704"
+* telecom.value = "+3293738738"
 * telecom.use = #work
 * address.use = #work
-* address.line = "apenrots 230"
-* address.city = "Blijdorp"
-* address.postalCode = "3056BE"
-* address.country = "NLD"
+* address.line = "groene plats 230"
+* address.city = "Gent"
+* address.postalCode = "9000BE"
+* address.country = "BEL"
 * address.extension[0]
   * url = "http://hl7.org/fhir/StructureDefinition/geolocation"
   * extension[0].url = "latitude"
@@ -28,7 +28,7 @@ Usage: #inline
   * extension[1].valueDecimal = 3.7400413
 
 
-Instance: messagedefinition
+Instance: exampleMappedCapability
 InstanceOf: CapabilityStatement
 Usage: #definition
 * contained = Org1
@@ -39,7 +39,7 @@ Usage: #definition
 * contact.name = "System Administrator"
 * contact.telecom.system = #email
 * contact.telecom.value = "wile@acme.org"
-* description = "Sample capability statement showing new MessageDefinition structure"
+* description = "Sample capability statement of a capability implemented in a hospital"
 * kind = #instance
 * software.name = "EHR"
 * implementation.description = "Acme hospital"
