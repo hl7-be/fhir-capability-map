@@ -196,6 +196,22 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
@@ -221,10 +237,10 @@
         <valueString value="CapabilityStatement"/>
       </extension>
       <reference>
-        <reference value="CapabilityStatement/messagedefinition"/>
+        <reference value="CapabilityStatement/exampleMappedCapability"/>
       </reference>
-      <name value="messagedefinition"/>
-      <description value="Sample capability statement showing new MessageDefinition structure"/>
+      <name value="exampleMappedCapability"/>
+      <description value="Sample capability statement of a capability implemented in a hospital"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

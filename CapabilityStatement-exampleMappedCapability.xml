@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+  <id value="exampleMappedCapability"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2/><div><p>Sample capability statement of a capability implemented in a hospital</p>
+</div></div>
+  </text>
+  <contained>
+    <Organization>
+      <id value="Org1"/>
+      <identifier>
+        <use value="official"/>
+        <type>
+          <text value="Rusthuis"/>
+        </type>
+        <system value="http://www.belgianhealthinstitutions.be/"/>
+        <value value="9000282434"/>
+      </identifier>
+      <active value="true"/>
+      <type>
+        <coding>
+          <system value="http://snomed.info/sct"/>
+          <code value="405608006"/>
+          <display value="Academic Medical Center"/>
+        </coding>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/organization-type"/>
+          <code value="prov"/>
+        </coding>
+      </type>
+      <name value="Groene rust huis 9000"/>
+      <telecom>
+        <system value="phone"/>
+        <value value="+3293738738"/>
+        <use value="work"/>
+      </telecom>
+      <address>
+        <extension url="http://hl7.org/fhir/StructureDefinition/geolocation">
+          <extension url="latitude">
+            <valueDecimal value="51.040355"/>
+          </extension>
+          <extension url="longitude">
+            <valueDecimal value="3.7400413"/>
+          </extension>
+        </extension>
+        <use value="work"/>
+        <line value="groene plats 230"/>
+        <city value="Gent"/>
+        <postalCode value="9000BE"/>
+        <country value="BEL"/>
+      </address>
+    </Organization>
+  </contained>
+  <url value="http://example.com/fhir/example/CapabilityStatement/exampleMappedCapability"/>
+  <version value="1.0.0"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2012-01-04"/>
+  <publisher value="My Organization"/>
+  <contact>
+    <name value="My Organization"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.com/committees"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="my-group@example.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Bob Smith"/>
+    <telecom>
+      <system value="email"/>
+      <value value="bobsmith@example.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Sample capability statement of a capability implemented in a hospital"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <kind value="instance"/>
+  <software>
+    <name value="EHR"/>
+  </software>
+  <implementation>
+    <description value="Acme hospital"/>
+    <url value="http://acem.com/fhir"/>
+    <custodian>
+      <reference value="#Org1"/>
+    </custodian>
+  </implementation>
+  <fhirVersion value="4.0.1"/>
+  <format value="xml"/>
+  <format value="json"/>
+</CapabilityStatement>

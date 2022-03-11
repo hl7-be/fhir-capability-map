@@ -1,0 +1,133 @@
+{
+  "resourceType": "CapabilityStatement",
+  "id": "exampleMappedCapability",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2/><div><p>Sample capability statement of a capability implemented in a hospital</p>\n</div></div>"
+  },
+  "contained": [
+    {
+      "resourceType": "Organization",
+      "id": "Org1",
+      "identifier": [
+        {
+          "use": "official",
+          "type": {
+            "text": "Rusthuis"
+          },
+          "system": "http://www.belgianhealthinstitutions.be/",
+          "value": "9000282434"
+        }
+      ],
+      "active": true,
+      "type": [
+        {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "405608006",
+              "display": "Academic Medical Center"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+              "code": "prov"
+            }
+          ]
+        }
+      ],
+      "name": "Groene rust huis 9000",
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "+3293738738",
+          "use": "work"
+        }
+      ],
+      "address": [
+        {
+          "extension": [
+            {
+              "extension": [
+                {
+                  "url": "latitude",
+                  "valueDecimal": 51.040355
+                },
+                {
+                  "url": "longitude",
+                  "valueDecimal": 3.7400413
+                }
+              ],
+              "url": "http://hl7.org/fhir/StructureDefinition/geolocation"
+            }
+          ],
+          "use": "work",
+          "line": [
+            "groene plats 230"
+          ],
+          "city": "Gent",
+          "postalCode": "9000BE",
+          "country": "BEL"
+        }
+      ]
+    }
+  ],
+  "url": "http://example.com/fhir/example/CapabilityStatement/exampleMappedCapability",
+  "version": "1.0.0",
+  "status": "draft",
+  "experimental": true,
+  "date": "2012-01-04",
+  "publisher": "My Organization",
+  "contact": [
+    {
+      "name": "My Organization",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.com/committees"
+        },
+        {
+          "system": "email",
+          "value": "my-group@example.com"
+        }
+      ]
+    },
+    {
+      "name": "Bob Smith",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "bobsmith@example.com",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Sample capability statement of a capability implemented in a hospital",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "kind": "instance",
+  "software": {
+    "name": "EHR"
+  },
+  "implementation": {
+    "description": "Acme hospital",
+    "url": "http://acem.com/fhir",
+    "custodian": {
+      "reference": "#Org1"
+    }
+  },
+  "fhirVersion": "4.0.1",
+  "format": [
+    "xml",
+    "json"
+  ]
+}
