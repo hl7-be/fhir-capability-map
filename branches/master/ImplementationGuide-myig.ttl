@@ -286,6 +286,30 @@
          fhir:Extension.valueString [ fhir:value "true" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "fmm-definition" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "http://hl7.org/fhir/versions.html#maturity" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "propagate-status" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ];
      fhir:ImplementationGuide.definition.resource [
        fhir:index 0;
@@ -321,11 +345,11 @@
          fhir:Extension.valueString [ fhir:value "CapabilityStatement" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/CapabilityStatement/messagedefinition>;
-         fhir:Reference.reference [ fhir:value "CapabilityStatement/messagedefinition" ]
+         fhir:link <http://example.com/fhir/example/CapabilityStatement/exampleMappedCapability>;
+         fhir:Reference.reference [ fhir:value "CapabilityStatement/exampleMappedCapability" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "messagedefinition" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Sample capability statement showing new MessageDefinition structure" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "exampleMappedCapability" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Sample capability statement of a capability implemented in a hospital" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [

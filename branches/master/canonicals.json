@@ -7,9 +7,9 @@
     "name": "ExampleIG"
   },
   {
-    "id": "messagedefinition",
+    "id": "exampleMappedCapability",
     "type": "CapabilityStatement",
-    "url": "http://example.com/fhir/example/CapabilityStatement/messagedefinition",
+    "url": "http://example.com/fhir/example/CapabilityStatement/exampleMappedCapability",
     "version": "1.0.0"
   },
   {

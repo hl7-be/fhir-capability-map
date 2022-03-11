@@ -19,7 +19,7 @@
   "version": "1.0.0",
   "name": "MappedCapability",
   "status": "active",
-  "date": "2021-11-18T17:51:27+00:00",
+  "date": "2022-03-11T14:27:33+00:00",
   "publisher": "My Organization",
   "contact": [
     {
@@ -1987,7 +1987,8 @@
             "severity": "error",
             "human": "A given resource can only be described once per RESTful mode.",
             "expression": "resource.select(type).isDistinct()",
-            "xpath": "count(f:resource)=count(distinct-values(f:resource/f:type/@value))"
+            "xpath": "count(f:resource)=count(distinct-values(f:resource/f:type/@value))",
+            "source": "http://hl7.org/fhir/StructureDefinition/CapabilityStatement"
           },
           {
             "key": "ele-1",
@@ -2506,7 +2507,8 @@
             "severity": "error",
             "human": "Search parameter names must be unique in the context of a resource.",
             "expression": "searchParam.select(name).isDistinct()",
-            "xpath": "count(f:searchParam)=count(distinct-values(f:searchParam/f:name/@value))"
+            "xpath": "count(f:searchParam)=count(distinct-values(f:searchParam/f:name/@value))",
+            "source": "http://hl7.org/fhir/StructureDefinition/CapabilityStatement"
           },
           {
             "key": "ele-1",
