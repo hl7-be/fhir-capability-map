@@ -1,0 +1,1 @@
+const geojson = {"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"iconSize": [20, 20], "message": "<a href='www.google.com'>Groene rust huis 9000</a>"}, "geometry": {"type": "Point", "coordinates": [3.7400413, 51.040355]}}]}
