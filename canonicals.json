@@ -1,29 +1,29 @@
 [
   {
-    "id": "myig",
-    "type": "ImplementationGuide",
-    "url": "http://example.com/fhir/example",
-    "version": "1.0.0",
-    "name": "ExampleIG"
+    "id" : "myig",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.com/fhir/example",
+    "version" : "1.0.0",
+    "name" : "ExampleIG"
   },
   {
-    "id": "exampleMappedCapability",
-    "type": "CapabilityStatement",
-    "url": "http://example.com/fhir/example/CapabilityStatement/exampleMappedCapability",
-    "version": "1.0.0"
+    "id" : "exampleMappedCapability",
+    "type" : "CapabilityStatement",
+    "url" : "http://example.com/fhir/example/CapabilityStatement/exampleMappedCapability",
+    "version" : "1.0.0"
   },
   {
-    "id": "MappedCapability",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/MappedCapability",
-    "version": "1.0.0",
-    "name": "MappedCapability"
+    "id" : "MappedCapability",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/MappedCapability",
+    "version" : "1.0.0",
+    "name" : "MappedCapability"
   },
   {
-    "id": "MappedOrganization",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/MappedOrganization",
-    "version": "1.0.0",
-    "name": "MappedOrganization"
+    "id" : "MappedOrganization",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/MappedOrganization",
+    "version" : "1.0.0",
+    "name" : "MappedOrganization"
   }
 ]

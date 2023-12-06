@@ -1,11 +1,11 @@
 ﻿ExampleIG : Validation Results
 =========================================
 
-err = 4, warn = 8, info = 0
-IG Publisher Version: 1.1.112
-Generated Fri Mar 11 14:27:54 UTC 2022. FHIR version 4.0.1 for myig#1.0.0 (canonical = http://example.com/fhir/example)
- Build Errors : 28 / 3 / 0
- /github/workspace/fsh-generated/resources/CapabilityStatement-exampleMappedCapability : 1 / 2 / 2
+err = 4, warn = 11, info = 0
+IG Publisher Version: 1.5.5
+Generated Wed Dec 06 03:31:07 UTC 2023. FHIR version 4.0.1 for myig#1.0.0 (canonical = http://example.com/fhir/example)
+ Build Errors : 29 / 7 / 0
+ /github/workspace/fsh-generated/resources/CapabilityStatement-exampleMappedCapability : 1 / 1 / 2
  /github/workspace/fsh-generated/resources/ImplementationGuide-myig : 3 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MappedCapability : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MappedOrganization : 0 / 1 / 1
@@ -14,44 +14,48 @@ Generated Fri Mar 11 14:27:54 UTC 2022. FHIR version 4.0.1 for myig#1.0.0 (canon
 WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MappedCapability.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MappedOrganization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /github/workspace/output/CapabilityStatement-exampleMappedCapability.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/CapabilityStatement-exampleMappedCapability.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 121, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/CapabilityStatement-exampleMappedCapability.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/CapabilityStatement-exampleMappedCapability.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/CapabilityStatement-exampleMappedCapability.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 123, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Organization-exampleMappedCapability_Org1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Organization-exampleMappedCapability_Org1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 121, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedCapability-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedCapability-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedCapability-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedCapability.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedCapability.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedCapability.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 129, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedCapability.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 129, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedCapability.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 129, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedOrganization-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedOrganization-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedOrganization-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedOrganization.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedOrganization.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 125, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedOrganization.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 129, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedOrganization.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 129, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedOrganization.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 129, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 121, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 121, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/intro.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 121, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/model.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 121, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 121, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/CapabilityStatement-exampleMappedCapability-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 138, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/CapabilityStatement-exampleMappedCapability.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/CapabilityStatement-exampleMappedCapability.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 138, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/CapabilityStatement-exampleMappedCapability.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 140, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/CapabilityStatement-exampleMappedCapability.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 140, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/CapabilityStatement-exampleMappedCapability.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 140, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedCapability-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedCapability-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedCapability-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedCapability-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedCapability.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedCapability.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedCapability.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedCapability.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedCapability.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedOrganization-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedOrganization-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedOrganization-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedOrganization-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedOrganization.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedOrganization.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 142, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedOrganization.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedOrganization.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedOrganization.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 146, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 138, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 138, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/intro.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 138, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/model.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 138, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 138, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/CapabilityStatement-exampleMappedCapability.json ==
-WARNING: CapabilityStatement/exampleMappedCapability: CapabilityStatement: cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: CapabilityStatement/exampleMappedCapability: CapabilityStatement: cpb-1: 'A Capability Statement SHALL have at least one of REST, messaging or document element.' Rule 'A Capability Statement SHALL have at least one of REST, messaging or document element.' Failed
-WARNING: CapabilityStatement/exampleMappedCapability: CapabilityStatement.contained[0].ofType(Organization).identifier[0].type: No code provided, and a code should be provided from the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type)
+WARNING: CapabilityStatement/exampleMappedCapability: CapabilityStatement.contained[0]/*Organization/Org1*/.identifier[0].type: No code provided, and a code should be provided from the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|4.0.1)
+ERROR: CapabilityStatement/exampleMappedCapability: CapabilityStatement: Constraint failed: cpb-1: 'A Capability Statement SHALL have at least one of REST, messaging or document element.'
 == fsh-generated/resources/ImplementationGuide-myig.json ==
 ERROR: ImplementationGuide.where(url = 'http://example.com/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-myig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/myig) does not match the URL (http://example.com/fhir/example)
 ERROR: ImplementationGuide.url: Resource id/url mismatch: myig/http://example.com/fhir/example
 ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-myig: URL Mismatch http://example.com/fhir/example/ImplementationGuide/myig vs http://example.com/fhir/example
 == fsh-generated/resources/StructureDefinition-MappedCapability.json ==
-WARNING: StructureDefinition/MappedCapability: StructureDefinition.snapshot.element[0].constraint[6].xpath: value should not start or finish with whitespace ' not(f:kind/@value='instance')...exists(f:software))'
+WARNING: StructureDefinition/MappedCapability: StructureDefinition.snapshot.element[0].constraint[6].xpath: value should not start or finish with whitespace ' not(f:kind/@value='instance') or (not(exists(f:implementation)) and exists(f:software))'
 WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/MappedCapability'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-MappedOrganization.json ==
 WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/MappedOrganization'): The Implementation Guide contains no examples for this profile

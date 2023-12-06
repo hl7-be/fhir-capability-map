@@ -1,0 +1,15 @@
+﻿/github/workspace/fsh-generated/resources/CapabilityStatement-exampleMappedCapability.json: line 1, col 889, Warning - No code provided, and a code should be provided from the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|4.0.1) (CODEINVALID)
+/github/workspace/fsh-generated/resources/CapabilityStatement-exampleMappedCapability.json: line 1, col 2776, Error - Constraint failed: cpb-1: 'A Capability Statement SHALL have at least one of REST, messaging or document element.' (INVARIANT)
+/github/workspace/fsh-generated/resources/ImplementationGuide-myig.json: line 0, col 0, Error - Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-myig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/myig) does not match the URL (http://example.com/fhir/example) (INVALID)
+/github/workspace/fsh-generated/resources/ImplementationGuide-myig.json: line 0, col 0, Error - Resource id/url mismatch: myig/http://example.com/fhir/example (INVARIANT)
+/github/workspace/fsh-generated/resources/ImplementationGuide-myig.json: line 0, col 0, Error - URL Mismatch http://example.com/fhir/example/ImplementationGuide/myig vs http://example.com/fhir/example (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-MappedCapability.json: line 1, col 17198, Warning - value should not start or finish with whitespace ' not(f:kind/@value='instance') or (not(exists(f:implementation)) and exists(f:software))' (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-MappedCapability.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-MappedOrganization.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+
+ExampleIG : Validation Results
+=========================================
+
+err = 4, warn = 11, info = 0
+IG Publisher Version: 1.5.5
+Generated Wed Dec 06 03:31:07 UTC 2023. FHIR version 4.0.1 for myig#1.0.0 (canonical = http://example.com/fhir/example)
