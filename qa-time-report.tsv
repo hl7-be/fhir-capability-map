@@ -1,5 +1,5 @@
 Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-myig.json	2485	-	0	0	0	0	0	0	11	93	0	0	0	0	0	0	0	1	0	0	100	69	0	0	0	2	0	1
-fsh-generated/resources/CapabilityStatement-exampleMappedCapability.json	2378	21	0	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	21	37	0	0	0	1	0	0
-fsh-generated/resources/StructureDefinition-MappedCapability.json	1619	19	0	0	0	0	0	430	1	214	0	0	1	0	0	0	0	3	0	0	624	2190	0	0	0	19	0	3
-fsh-generated/resources/StructureDefinition-MappedOrganization.json	1649	18	1	0	0	0	0	110	0	56	0	0	0	0	0	0	0	1	0	0	145	340	0	0	0	6	0	0
+/fsh-generated/resources/ImplementationGuide-myig.json	2485	-	0	0	0	0	0	0	4	63	0	0	0	0	0	0	0	1	0	0	97	62	0	0	0	2	0	0
+fsh-generated/resources/CapabilityStatement-exampleMappedCapability.json	2378	15	0	0	1	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0	19	28	0	0	0	1	0	0
+fsh-generated/resources/StructureDefinition-MappedCapability.json	1619	11	0	0	0	0	0	268	1	263	0	0	1	0	0	0	0	3	0	0	634	2313	0	0	0	16	0	2
+fsh-generated/resources/StructureDefinition-MappedOrganization.json	1649	11	0	0	0	0	0	63	0	91	0	0	0	0	0	0	0	1	0	0	159	442	0	0	0	5	0	0
