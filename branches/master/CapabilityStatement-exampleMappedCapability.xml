@@ -3,8 +3,7 @@
 <CapabilityStatement xmlns="http://hl7.org/fhir">
   <id value="exampleMappedCapability"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2/><div><p>Sample capability statement of a capability implemented in a hospital</p>
-</div></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2 id="title"/><ul><li>Implementation Guide Version: 1.0.0</li><li>FHIR Version: 4.0.1</li><li>Supported Formats: <code>xml</code>, <code>json</code></li><li>Supported Patch Formats: </li><li>Published on: Wed Jan 04 00:00:00 UTC 2012</li><li>Published by: My Organization</li></ul><blockquote class="impl-note"><p><strong>Note to Implementers: FHIR Capabilities</strong></p><p>Any FHIR capability may be 'allowed' by the system unless explicitly marked as &quot;SHALL NOT&quot;. A few items are marked as MAY in the Implementation Guide to highlight their potential relevance to the use case.</p></blockquote></div>
   </text>
   <contained>
     <Organization>
@@ -50,6 +49,28 @@
         <postalCode value="9000BE"/>
         <country value="BEL"/>
       </address>
+      <contact>
+        <telecom>
+          <system value="phone"/>
+          <value value="+3293738738"/>
+          <use value="work"/>
+        </telecom>
+        <address>
+          <extension url="http://hl7.org/fhir/StructureDefinition/geolocation">
+            <extension url="latitude">
+              <valueDecimal value="51.040355"/>
+            </extension>
+            <extension url="longitude">
+              <valueDecimal value="3.7400413"/>
+            </extension>
+          </extension>
+          <use value="work"/>
+          <line value="groene plats 230"/>
+          <city value="Gent"/>
+          <postalCode value="9000BE"/>
+          <country value="BEL"/>
+        </address>
+      </contact>
     </Organization>
   </contained>
   <url value="http://example.com/fhir/example/CapabilityStatement/exampleMappedCapability"/>

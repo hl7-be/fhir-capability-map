@@ -1,7 +1,7 @@
 ﻿{
   "openapi": "3.0.2",
   "info": {
-    "title": "CapabilityStatement[http://example.com/fhir/example/CapabilityStatement/exampleMappedCapability]",
+    "title": "CapabilityStatement[http://example.com/fhir/example/CapabilityStatement/exampleMappedCapability|1.0.0]",
     "description": "Sample capability statement of a capability implemented in a hospital",
     "license": {
       "name": "Creative Commons Zero v1.0 Universal",
