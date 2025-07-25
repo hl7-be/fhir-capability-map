@@ -1,15 +1,54 @@
-﻿/github/workspace/fsh-generated/resources/CapabilityStatement-exampleMappedCapability.json: line 1, col 889, Warning - No code provided, and a code should be provided from the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|4.0.1) (CODEINVALID)
-/github/workspace/fsh-generated/resources/CapabilityStatement-exampleMappedCapability.json: line 1, col 2776, Error - Constraint failed: cpb-1: 'A Capability Statement SHALL have at least one of REST, messaging or document element.' (INVARIANT)
+ExampleIG
+=========================================
+
+Generic: line 0, col 0, Warning - The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole (INVALID)
+Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MappedCapability.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
+Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MappedOrganization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'downloads.html' for "Downloads" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/github/workspace/fsh-generated/resources/CapabilityStatement-exampleMappedCapability.json: line 1, col 1103, Warning - No definition could be found for URL value 'http://www.belgianhealthinstitutions.be/' (INVALID)
+/github/workspace/fsh-generated/resources/CapabilityStatement-exampleMappedCapability.json: line 1, col 2856, Warning - No definition could be found for URL value 'http://acem.com/fhir' (INVALID)
+/github/workspace/fsh-generated/resources/CapabilityStatement-exampleMappedCapability.json: line 1, col 2938, Error - Constraint failed: cpb-1: 'A Capability Statement SHALL have at least one of REST, messaging or document element.' (INVARIANT)
 /github/workspace/fsh-generated/resources/ImplementationGuide-myig.json: line 0, col 0, Error - Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-myig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/myig) does not match the URL (http://example.com/fhir/example) (INVALID)
 /github/workspace/fsh-generated/resources/ImplementationGuide-myig.json: line 0, col 0, Error - Resource id/url mismatch: myig/http://example.com/fhir/example (INVARIANT)
 /github/workspace/fsh-generated/resources/ImplementationGuide-myig.json: line 0, col 0, Error - URL Mismatch http://example.com/fhir/example/ImplementationGuide/myig vs http://example.com/fhir/example (BUSINESSRULE)
-/github/workspace/fsh-generated/resources/StructureDefinition-MappedCapability.json: line 1, col 17198, Warning - value should not start or finish with whitespace ' not(f:kind/@value='instance') or (not(exists(f:implementation)) and exists(f:software))' (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-MappedCapability.json: line 1, col 18309, Warning - value should not start or finish with whitespace ' not(f:kind/@value='instance') or (not(exists(f:implementation)) and exists(f:software))' (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-MappedCapability.json: line 1, col 26096, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated (BUSINESSRULE)
 /github/workspace/fsh-generated/resources/StructureDefinition-MappedCapability.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/StructureDefinition-MappedOrganization.json: line 1, col 23676, Warning - There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/geolocation'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/geolocation' to 'http://hl7.org/fhir/StructureDefinition/geolocation|5.2.0' (INVALID)
+/github/workspace/fsh-generated/resources/StructureDefinition-MappedOrganization.json: line 1, col 47674, Warning - There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/geolocation'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/geolocation' to 'http://hl7.org/fhir/StructureDefinition/geolocation|5.2.0' (INVALID)
 /github/workspace/fsh-generated/resources/StructureDefinition-MappedOrganization.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 
-ExampleIG : Validation Results
-=========================================
-
-err = 4, warn = 11, info = 0
-IG Publisher Version: 1.5.5
-Generated Wed Dec 06 03:31:45 UTC 2023. FHIR version 4.0.1 for myig#1.0.0 (canonical = http://example.com/fhir/example)
+err = 4, warn = 14, info = 1
+IG Publisher Version: 2.0.11

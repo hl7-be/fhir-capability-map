@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sct: <http://snomed.info/id/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -11,7 +12,7 @@
   fhir:id [ fhir:v "exampleMappedCapability"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2 id=\"title\"/><ul><li>Implementation Guide Version: 1.0.0</li><li>FHIR Version: 4.0.1</li><li>Supported Formats: <code>xml</code>, <code>json</code></li><li>Supported Patch Formats: </li><li>Published on: Wed Jan 04 00:00:00 UTC 2012</li><li>Published by: My Organization</li></ul><blockquote class=\"impl-note\"><p><strong>Note to Implementers: FHIR Capabilities</strong></p><p>Any FHIR capability may be 'allowed' by the system unless explicitly marked as &quot;SHALL NOT&quot;. A few items are marked as MAY in the Implementation Guide to highlight their potential relevance to the use case.</p></blockquote></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CapabilityStatement exampleMappedCapability</b></p><a name=\"exampleMappedCapability\"> </a><a name=\"hcexampleMappedCapability\"> </a><h2 id=\"title\"/><ul><li>Implementation Guide Version: 1.0.0 </li><li>FHIR Version: 4.0.1 </li><li>Supported Formats: <code>xml</code>, <code>json</code></li><li>Supported Patch Formats: </li><li>Published on: 2012-01-04 </li><li>Published by: My Organization </li></ul><blockquote class=\"impl-note\"><p><strong>Note to Implementers: FHIR Capabilities</strong></p><p>Any FHIR capability may be 'allowed' by the system unless explicitly marked as 'SHALL NOT'. A few items are marked as MAY in the Implementation Guide to highlight their potential relevance to the use case.</p></blockquote></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:contained ( [
      a fhir:Organization ;
@@ -24,7 +25,7 @@
        fhir:system [ fhir:v "http://www.belgianhealthinstitutions.be/"^^xsd:anyURI ] ;
        fhir:value [ fhir:v "9000282434" ]
      ] ) ;
-     fhir:active [ fhir:v "true"^^xsd:boolean ] ;
+     fhir:active [ fhir:v true ] ;
      fhir:type ( [
        fhir:coding ( [
          a sct:405608006 ;
@@ -46,10 +47,16 @@
        fhir:extension ( [
          fhir:extension ( [
            fhir:url [ fhir:v "latitude"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "51.040355"^^xsd:decimal ]
+           fhir:value [
+             a fhir:decimal ;
+             fhir:v 51.040355
+           ]
          ] [
            fhir:url [ fhir:v "longitude"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "3.7400413"^^xsd:decimal ]
+           fhir:value [
+             a fhir:decimal ;
+             fhir:v 3.7400413
+           ]
          ] ) ;
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/geolocation"^^xsd:anyURI ]
        ] ) ;
@@ -69,10 +76,16 @@
          fhir:extension ( [
            fhir:extension ( [
              fhir:url [ fhir:v "latitude"^^xsd:anyURI ] ;
-             fhir:value [ fhir:v "51.040355"^^xsd:decimal ]
+             fhir:value [
+               a fhir:decimal ;
+               fhir:v 51.040355
+             ]
            ] [
              fhir:url [ fhir:v "longitude"^^xsd:anyURI ] ;
-             fhir:value [ fhir:v "3.7400413"^^xsd:decimal ]
+             fhir:value [
+               a fhir:decimal ;
+               fhir:v 3.7400413
+             ]
            ] ) ;
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/geolocation"^^xsd:anyURI ]
          ] ) ;
@@ -87,7 +100,7 @@
   fhir:url [ fhir:v "http://example.com/fhir/example/CapabilityStatement/exampleMappedCapability"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:experimental [ fhir:v true] ; # 
   fhir:date [ fhir:v "2012-01-04"^^xsd:date] ; # 
   fhir:publisher [ fhir:v "My Organization"] ; # 
   fhir:contact ( [
