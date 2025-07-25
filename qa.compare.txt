@@ -1,0 +1,65 @@
+ExampleIG : Validation Results
+=========================================
+
+err = 4, warn = 14, info = 1
+$--
+Generated $--. FHIR version $-- for myig#$-- (canonical = http://example.com/fhir/example)
+ Build Errors : 29 / 7 / 0
+ /github/workspace/fsh-generated/resources/CapabilityStatement-exampleMappedCapability : 1 / 2 / 2
+ /github/workspace/fsh-generated/resources/ImplementationGuide-myig : 3 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-MappedCapability : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/StructureDefinition-MappedOrganization : 0 / 3 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MappedCapability.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MappedOrganization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: CapabilityStatement-exampleMappedCapability-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 141, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: CapabilityStatement-exampleMappedCapability.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: CapabilityStatement-exampleMappedCapability.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 141, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: CapabilityStatement-exampleMappedCapability.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: CapabilityStatement-exampleMappedCapability.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: CapabilityStatement-exampleMappedCapability.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedCapability-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedCapability-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedCapability-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedCapability-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedCapability.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedCapability.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedCapability.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedCapability.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedCapability.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedOrganization-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedOrganization-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedOrganization-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedOrganization-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedOrganization.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedOrganization.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 145, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedOrganization.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedOrganization.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: StructureDefinition-MappedOrganization.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 149, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 141, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 141, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: intro.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 141, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: model.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 141, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 141, column 9: The link 'downloads.html' for "Downloads" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CapabilityStatement-exampleMappedCapability.json ==
+WARNING: CapabilityStatement/exampleMappedCapability: CapabilityStatement.contained[0]/*Organization/Org1*/.identifier[0].system: No definition could be found for URL value 'http://www.belgianhealthinstitutions.be/'
+WARNING: CapabilityStatement/exampleMappedCapability: CapabilityStatement.implementation.url: No definition could be found for URL value 'http://acem.com/fhir'
+ERROR: CapabilityStatement/exampleMappedCapability: CapabilityStatement: Constraint failed: cpb-1: 'A Capability Statement SHALL have at least one of REST, messaging or document element.'
+== fsh-generated/resources/ImplementationGuide-myig.json ==
+ERROR: ImplementationGuide.where(url = 'http://example.com/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-myig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/myig) does not match the URL (http://example.com/fhir/example)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: myig/http://example.com/fhir/example
+ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-myig: URL Mismatch http://example.com/fhir/example/ImplementationGuide/myig vs http://example.com/fhir/example
+== fsh-generated/resources/StructureDefinition-MappedCapability.json ==
+WARNING: StructureDefinition/MappedCapability: StructureDefinition.snapshot.element[0].constraint[6].xpath: value should not start or finish with whitespace ' not(f:kind/@value='instance') or (not(exists(f:implementation)) and exists(f:software))'
+INFORMATION: StructureDefinition/MappedCapability: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/MappedCapability'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-MappedOrganization.json ==
+WARNING: StructureDefinition/MappedOrganization: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/geolocation'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/geolocation' to 'http://hl7.org/fhir/StructureDefinition/geolocation|5.2.0'
+WARNING: StructureDefinition/MappedOrganization: StructureDefinition.differential.element[1].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/geolocation'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/geolocation' to 'http://hl7.org/fhir/StructureDefinition/geolocation|5.2.0'
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/MappedOrganization'): The Implementation Guide contains no examples for this profile

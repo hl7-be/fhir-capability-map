@@ -1,6 +1,7 @@
 {
   "version" : "1.0.0",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20231206033049",
-  "name" : "myig"
+  "date" : "20250725195616",
+  "name" : "myig",
+  "jurisdiction" : "http://unstats.un.org/unsd/methods/m49/m49.htm#001"
 }
